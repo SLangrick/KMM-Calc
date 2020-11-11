@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/txtOutput"
+      android:layout_width="374dp"
+      android:layout_height="65dp"
+      android:text="Hello World!"
+      android:textAlignment="viewEnd"
+      app:autoSizeTextType="uniform"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.891"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.423" />
+
+  <TextView
+      android:id="@+id/txtFunc"
+      android:layout_width="407dp"
+      android:layout_height="104dp"
+      android:layout_marginEnd="8dp"
+      android:textAlignment="viewEnd"
+      app:autoSizeTextType="uniform"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.1"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0" />
+
+  <LinearLayout
+      android:layout_width="413dp"
+      android:layout_height="384dp"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/btnClear"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:text="C" />
+
+      <Button
+          android:id="@+id/button18"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:text="Button" />
+
+      <Button
+          android:id="@+id/button17"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:text="Button" />
+
+      <Button
+          android:id="@+id/btnDivide"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:backgroundTint="#FF9800"
+          android:text="÷" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/btnSeven"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:text="7" />
+
+      <Button
+          android:id="@+id/btnEight"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:text="8" />
+
+      <Button
+          android:id="@+id/btnNine"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:text="9" />
+
+      <Button
+          android:id="@+id/btnMult"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:backgroundTint="#FF9800"
+          android:text="X" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/btnFour"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:text="4" />
+
+      <Button
+          android:id="@+id/btnFive"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:text="5" />
+
+      <Button
+          android:id="@+id/btnSix"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:text="6" />
+
+      <Button
+          android:id="@+id/btnMinus"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:backgroundTint="#FF9800"
+          android:text="-" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/btnOne"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:text="1" />
+
+      <Button
+          android:id="@+id/btnTwo"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:text="2" />
+
+      <Button
+          android:id="@+id/btnThree"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:text="3" />
+
+      <Button
+          android:id="@+id/btnPlus"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:backgroundTint="#FF9800"
+          android:text="+" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/btnZero"
+          android:layout_width="208dp"
+          android:layout_height="75dp"
+          android:text="0" />
+
+      <Button
+          android:id="@+id/btnPoint"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:text="." />
+
+      <Button
+          android:id="@+id/btnEquals"
+          android:layout_width="104dp"
+          android:layout_height="75dp"
+          android:backgroundTint="#FF5722"
+          android:text="=" />
+
+    </LinearLayout>
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
